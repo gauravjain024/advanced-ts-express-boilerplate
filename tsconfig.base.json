@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
-    "target": "ESNext",
+    "module": "CommonJS",
+    "target": "es2021",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "node",
     "downlevelIteration": false,
     "isolatedModules": false,
     "suppressImplicitAnyIndexErrors": false,
@@ -19,7 +19,7 @@
     "resolveJsonModule": true,
     "newLine": "LF",
     "skipLibCheck": true,
-    "lib": ["ESNext", "esnext.asynciterable"],
+    "lib": ["es2021", "esnext.asynciterable"],
     "declaration": false,
     "noResolve": false,
     "preserveConstEnums": true,
